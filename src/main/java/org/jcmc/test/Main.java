@@ -12,13 +12,13 @@ public class Main {
         // Esta es una prueba usando el patron de diseño Factory generamos un pago y la correcta implementacion de la interface PagoInterface
         PagoFactory pagoFactory = new PagoFactory();
         PagoInterface pago = pagoFactory.obtenerPago(TipoPago.PAYPAL);
-        pago.generarPago();
+        System.out.println("Se genero el pago en " + pago.generarPago());
 
         pago = pagoFactory.obtenerPago(TipoPago.EFECTIVO);
-        pago.generarPago();
+        System.out.println("Se genero el pago en "+ pago.generarPago());
 
         pago = pagoFactory.obtenerPago(TipoPago.TRANSFERENCIA);
-        pago.generarPago();
+        System.out.println("Se genero el pago en "+ pago.generarPago());
 
 
         //
