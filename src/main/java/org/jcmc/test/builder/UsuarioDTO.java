@@ -98,8 +98,7 @@ public class UsuarioDTO {
             // aqui podemos agregar logica que valide la informacion para creacion
             //del objetto UsuarioDTO
 
-            Objects.git staus
-            requireNonNull(firstName);
+            Objects.requireNonNull(firstName);
             if (firstName == null) {
                 firstName = "";
             }
