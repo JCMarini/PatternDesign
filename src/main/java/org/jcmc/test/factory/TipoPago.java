@@ -1,4 +1,4 @@
-package org.jcmc.test.factory.model;
+package org.jcmc.test.factory;
 
 public enum TipoPago {
     PAYPAL("PAYPAL"),

@@ -1,11 +1,11 @@
 package org.jcmc.test.decorator;
 
-public class Tesla extends AutomovilDecorate {
+public class AutoElectrico extends AutoDecorate {
 
     private float speed = 0;
     private boolean isStarted = false;
 
-    public Tesla(Automovil automovil) {
+    public AutoElectrico(Automovil automovil) {
         super(automovil);
     }
 

@@ -1,6 +1,4 @@
-package org.jcmc.test.factory.service;
-
-import org.jcmc.test.factory.model.TipoPago;
+package org.jcmc.test.factory;
 
 public class PagoTransferencia implements PagoInterface {
 

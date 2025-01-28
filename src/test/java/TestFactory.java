@@ -1,6 +1,6 @@
-import org.jcmc.test.factory.model.TipoPago;
-import org.jcmc.test.factory.service.PagoFactory;
-import org.jcmc.test.factory.service.PagoInterface;
+import org.jcmc.test.factory.TipoPago;
+import org.jcmc.test.factory.PagoFactory;
+import org.jcmc.test.factory.PagoInterface;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

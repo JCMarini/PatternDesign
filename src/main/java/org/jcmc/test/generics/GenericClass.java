@@ -1,14 +1,14 @@
 package org.jcmc.test.generics;
 
-public class Generic<T> {
+public class GenericClass<T extends Number> {
 
     private final T genericType;
 
-    public Generic(T tipo) {
+    public GenericClass(T tipo) {
         this.genericType = tipo;
     }
 
     public String getGenericType() {
-        return genericType.getClass().getName();
+        return genericType.getClass().getTypeName();
     }
 }

@@ -1,6 +1,6 @@
 package org.jcmc.test.decorator;
 
-public class Camioneta implements Automovil {
+public class AutoEstandar implements Automovil {
 
     private float speed = 0;
     private boolean isStarted = false;

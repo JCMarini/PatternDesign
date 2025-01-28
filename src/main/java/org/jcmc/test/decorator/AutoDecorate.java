@@ -1,11 +1,11 @@
 package org.jcmc.test.decorator;
 
-public abstract  class AutomovilDecorate implements Automovil {
+public abstract class AutoDecorate implements Automovil {
 
     private Automovil automovil;
     private boolean enchufar = false;
 
-    public AutomovilDecorate(Automovil automovil) {
+    public AutoDecorate(Automovil automovil) {
         this.automovil = automovil;
     }
 

@@ -1,4 +1,4 @@
-package org.jcmc.test.factory.service;
+package org.jcmc.test.factory;
 
 public interface PagoInterface {
 
